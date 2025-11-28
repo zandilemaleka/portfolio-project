@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
           About Me
         </h2>
-
+         <div className="space-y-6 text-justify">
         <div className="space-y-6">
           <p className="text-lg text-gray-700 leading-relaxed">
             I'm a developer and designer who believes that great digital
@@ -28,6 +28,7 @@ const About = () => {
             contributing to open-source projects, or sharing knowledge with the
             developer community.
           </p>
+        </div>
         </div>
       </div>
     </section>
