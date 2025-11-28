@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-16 bg-white">
       <div className="container mx-auto px-4 max-w-3xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">
           About Me
         </h2>
          <div className="space-y-6 text-justify">
-        <div className="space-y-6">
+
           <p className="text-lg text-gray-700 leading-relaxed">
             I'm a developer and designer who believes that great digital
             experiences come from the perfect blend of aesthetics and
@@ -30,7 +30,7 @@ const About = () => {
           </p>
         </div>
         </div>
-      </div>
+      
     </section>
   );
 };
