@@ -1,4 +1,8 @@
 import React from "react";
+import weatherImg from "../assets/images/weather.png";
+import recipeImg from "../assets/images/recipe.png";
+import clockImg from "../assets/images/clock.png";
+import digitalImg from "../assets/images/digital.png";
 
 const Projects = () => {
   const projects = [
@@ -8,7 +12,7 @@ const Projects = () => {
         "Built a responsive app fetching live API data, focused on UI/UX and clean code with real-time weather updates and location-based forecasts.",
       technologies: ["HTML", "CSS", "JavaScript", "API Integration"],
       link: "#",
-      image: "/api/placeholder/400/250", 
+      image: "/src/assets/images/weather.png", 
       animation: "hover:scale-105 transition-transform duration-300",
     },
     {
@@ -17,7 +21,7 @@ const Projects = () => {
         "Creative AI application that generates recipes based on user preferences and available ingredients with beautiful food imagery.",
       technologies: ["JavaScript", "AI Integration", "API", "CSS"],
       link: "#",
-      image: "/api/placeholder/400/250", 
+      image: "/src/assets/images/recipe.png", 
       animation: "hover:scale-105 transition-transform duration-300",
     },
     {
