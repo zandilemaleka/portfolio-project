@@ -11,7 +11,7 @@ const Projects = () => {
       description:
         "Responsive weather app with live API data, real-time updates and location-based forecasts with clean UI/UX design.",
       technologies: ["React", "API Integration", "CSS", "Responsive Design"],
-      link: "#",
+      link: "https://forecast-meteo-app.netlify.app/",
       image: weatherImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
@@ -20,7 +20,7 @@ const Projects = () => {
       description:
         " AI-powered recipe generator that creates dishes based on user preferences and available ingredients.",
       technologies: ["JavaScript", "AI Integration", "API", "CSS"],
-      link: "#",
+      link: "https://generating-recipes.netlify.app/",
       image: recipeImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
@@ -29,7 +29,7 @@ const Projects = () => {
       description:
         "Multi-timezone clock application with clean interface, real-time updates, and  showing different timezones.",
       technologies: ["JavaScript", "Moment.js", "UI/UX", "Animations"],
-      link: "#",
+      link: "https://time-across.netlify.app/",
       image: clockImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
@@ -38,7 +38,7 @@ const Projects = () => {
       description:
         "A simple, stylish digital clock that displays the current time in AM/PM format and updates every second.",
       technologies: ["JavaScript", "CSS Animations", "SVG", "UI Design"],
-      link: "#",
+      link: "https://digitalclockmelsoft.netlify.app/",
       image: digitalImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
@@ -55,7 +55,7 @@ const Projects = () => {
           development and creative problem-solving.
         </p>
 
-        {/* Top Row - 2 Projects */}
+        {/* Top Row */}
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           {projects.slice(0, 2).map((project, index) => (
             <div
@@ -114,7 +114,7 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* Bottom Row - 2 Projects */}
+        {/* Bottom Row  */}
         <div className="grid md:grid-cols-2 gap-8">
           {projects.slice(2, 4).map((project, index) => (
             <div
