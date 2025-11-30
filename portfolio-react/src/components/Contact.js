@@ -74,7 +74,7 @@ const Contact = () => {
 
               {/* Social Links */}
               <div className="pt-6">
-                <h4 className="text-xl font-semibold mb-4"> Follow Me</h4>
+                <h4 className="text-xl font-semibold mb-4">Follow Me</h4>
                 <div className="flex space-x-4">
                   <a
                     href="#"
@@ -99,6 +99,7 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
+              
 
               {/* Availability */}
               <div className="pt-6 border-t border-gray-700">
