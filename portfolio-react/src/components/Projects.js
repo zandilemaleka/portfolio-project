@@ -9,28 +9,28 @@ const Projects = () => {
     {
       title: "Weather App",
       description:
-        "Built a responsive app fetching live API data, focused on UI/UX and clean code with real-time weather updates and location-based forecasts.",
-      technologies: ["HTML", "CSS", "JavaScript", "API Integration"],
+        "Responsive weather app with live API data, real-time updates and location-based forecasts with clean UI/UX design.",
+      technologies: ["React", "API Integration", "CSS", "Responsive Design"],
       link: "#",
-      image: "/src/assets/images/weather.png", 
+      image: weatherImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
     {
       title: "AI Recipe Generator",
       description:
-        "Creative AI application that generates recipes based on user preferences and available ingredients with beautiful food imagery.",
+        " AI-powered recipe generator that creates dishes based on user preferences and available ingredients.",
       technologies: ["JavaScript", "AI Integration", "API", "CSS"],
       link: "#",
-      image: "/src/assets/images/recipe.png", 
+      image: recipeImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
     {
       title: "World Clock",
       description:
-        "Multi-timezone clock application with clean interface, real-time updates, and elegant clock animations showing different timezones.",
+        "Multi-timezone clock application with clean interface, real-time updates, and  showing different timezones.",
       technologies: ["JavaScript", "Moment.js", "UI/UX", "Animations"],
       link: "#",
-      image: "/api/placeholder/400/250", 
+      image: clockImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
     {
@@ -39,7 +39,7 @@ const Projects = () => {
         "A simple, stylish digital clock that displays the current time in AM/PM format and updates every second.",
       technologies: ["JavaScript", "CSS Animations", "SVG", "UI Design"],
       link: "#",
-      image: "/api/placeholder/400/250", 
+      image: digitalImg,
       animation: "hover:scale-105 transition-transform duration-300",
     },
   ];
@@ -63,12 +63,14 @@ const Projects = () => {
               className={`bg-white rounded-xl shadow-lg overflow-hidden ${project.animation} hover:shadow-xl transition-all duration-300`}
             >
               {/* Project Image */}
-              <div className="h-48 bg-gradient-to-r from-pink-400 to-pink-600 flex items-center justify-center">
-                <span className="text-white font-semibold text-lg">
-                  Project Image: {project.title}
-                </span>
+            
+              <div className="h-60 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-center"
+                />
               </div>
-
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-gray-800">
                   {project.title}
@@ -120,10 +122,13 @@ const Projects = () => {
               className={`bg-white rounded-xl shadow-lg overflow-hidden ${project.animation} hover:shadow-xl transition-all duration-300`}
             >
               {/* Project Image */}
-              <div className="h-48 bg-gradient-to-r from-pink-400 to-pink-600 flex items-center justify-center">
-                <span className="text-white font-semibold text-lg">
-                  Project Image: {project.title}
-                </span>
+      
+              <div className="h-60 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-center"
+                />
               </div>
 
               <div className="p-6">
