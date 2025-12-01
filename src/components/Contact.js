@@ -77,21 +77,21 @@ const Contact = () => {
                 <h4 className="text-xl font-semibold mb-4">Follow Me</h4>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/zandile-maleka/"
                     className="bg-gray-700 hover:bg-gray-600 p-3 rounded-lg transition duration-300 transform hover:scale-110"
                   >
                     <i className="fab fa-linkedin-in text-pink-400"></i>
                     <span className="text-white">LinkedIn</span>
                   </a>
                   <a
-                    href="#"
+                    href="https://github.com/zandilemaleka"
                     className="bg-gray-700 hover:bg-gray-600 p-3 rounded-lg transition duration-300 transform hover:scale-110"
                   >
                     <i className="fab fa-github text-pink-400"></i>
                     <span className="text-white">Github</span>
                   </a>
                   <a
-                    href="#"
+                    href="ttps://twitter.com/ZandileMaleka"
                     className="bg-gray-700 hover:bg-gray-600 p-3 rounded-lg transition duration-300 transform hover:scale-110"
                   >
                     <i className="fab fa-twitter text-pink-400"></i>
@@ -99,7 +99,6 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-              
 
               {/* Availability */}
               <div className="pt-6 border-t border-gray-700">
